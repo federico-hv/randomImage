@@ -1,0 +1,55 @@
+".container": {
+	backgroundColor:"white",
+	navBarHidden:true, //Remueve la barra de arriba generada por el sdk de titanium
+	exitOnClose:true // Con el botón atrás no vuelve al logo de Alloy sino que se cierra
+},
+"#main":{
+	layout: "vertical",
+	backgroundColor: "#750D33",
+	height: "100%",
+	width: "100%"
+},
+"#uno": {
+	width:"100%",
+	height:"70%",
+	layout: "vertical",
+},
+"#unoUno": {
+	width: "100%",
+	height: "15%",
+	layout: "vertical" // Para que el texto aparezca centrado en una vista se coloca layout vertical en la vista y textAlign: "center" en el Label
+},
+"#unoDos": {
+	width: "100%",
+	height: "70%"
+},
+"#unoTres": {
+	width: "100%",
+	height: "15%"
+},
+"#dos": {
+	width: "100%",
+	height: "30%"
+},
+"#foto":{
+	backgroundColor: "red",
+	//image:"https://lh6.googleusercontent.com/-GudLB9ni9ek/AAAAAAAAAAI/AAAAAAAAAGM/H36jHK3Msms/s120-c/photo.jpg",
+	image: "/images/fotitos/luna.jpg",
+	width:"70%",
+	height:"80%",
+	borderRadius:20
+},
+"#titulo": {
+	width: "80%",
+	height: "100%",
+	font: {
+        fontSize: '40dp'
+    },
+    color: "white",
+    textAlign: "center"
+},
+"#cambiarFoto": {
+	width:"80%",
+	height:"40%",
+	top:10
+}

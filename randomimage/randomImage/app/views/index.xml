@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="container">
+		<View id="main">
+			<View id="uno">
+				<View id="unoUno">
+					<Label id="titulo">La luna</Label>
+				</View>
+				<View id="unoDos">
+					<ImageView id="foto"></ImageView>
+				</View>
+				<View id="unoTres"></View>
+			</View>
+			<View id="dos">
+					<Button id="cambiarFoto">Cambiar Imagen</Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>
